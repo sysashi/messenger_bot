@@ -14,7 +14,7 @@ defmodule MessengerBot.Web.Router do
 
   plug(Transaction)
   plug(EventBus)
-  plug(MaxBodyLength)
+  # plug(MaxBodyLength)
   plug(AppIdentification)
   plug(AppAuthentication)
   plug(:match)
